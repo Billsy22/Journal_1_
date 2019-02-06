@@ -23,6 +23,12 @@ class EntryController {
     }
     
     func removeEntry(entry: Entry) {
-        
+        guard let index = entries.index(of: entry) else { return }
+        entries.remove(at: index)
+    }
+    
+    func update(entry: Entry, with NewTitle: String, and newBody: String) {
+        entry.title = NewTitle
+        entry.body = newBody
     }
 }
