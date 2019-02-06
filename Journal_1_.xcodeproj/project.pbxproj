@@ -12,6 +12,7 @@
 		1624980A220B3EC20010D228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16249809220B3EC20010D228 /* Assets.xcassets */; };
 		1624980D220B3EC20010D228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1624980B220B3EC20010D228 /* LaunchScreen.storyboard */; };
 		1624981A220B414D0010D228 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16249819220B414D0010D228 /* Entry.swift */; };
+		1624981C220B48910010D228 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1624981B220B48910010D228 /* EntryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1624980C220B3EC20010D228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1624980E220B3EC20010D228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16249819220B414D0010D228 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		1624981B220B48910010D228 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		16249817220B40610010D228 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1624981B220B48910010D228 /* EntryController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1624981C220B48910010D228 /* EntryController.swift in Sources */,
 				1624981A220B414D0010D228 /* Entry.swift in Sources */,
 				16249803220B3EC10010D228 /* AppDelegate.swift in Sources */,
 			);

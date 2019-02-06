@@ -8,10 +8,24 @@
 
 import Foundation
 
-class Entry {
+class Entry: Equatable {
+    
+    
+    // MARK: -  Equatable
+    
+    static func == (lhs: Entry, rhs: Entry) -> Bool {
+        return lhs.title == rhs.title &&
+        lhs.body == rhs.body
+    }
+    
+    
+    // MARK: -  Properties
     
     var title: String
     var body: String
+    
+    
+    // MARK: -  Initializer
     
     init(title: String, body: String) {
         self.title = title
