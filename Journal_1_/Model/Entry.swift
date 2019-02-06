@@ -10,4 +10,11 @@ import Foundation
 
 class Entry {
     
+    var title: String
+    var body: String
+    
+    init(title: String, body: String) {
+        self.title = title
+        self.body = body
+    }
 }
